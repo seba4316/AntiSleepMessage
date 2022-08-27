@@ -1,0 +1,6 @@
+name: AntiSleepMessage
+description: Hides the sleep actionbar message added in 1.19
+version: 1.0
+main: me.seba4316.antisleepmessage.AntiSleepMessage
+author: Seba4316
+depend: [ Core ]
