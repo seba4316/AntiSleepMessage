@@ -33,7 +33,8 @@ public class AntiSleepMessage extends PluginHandler implements Listener {
 		int sleeping = jsonArray.get(0).getAsInt();
 		int players = jsonArray.get(1).getAsInt();
 		 */
-		event.setCancelled(true);
+		if (systemChatPacket.isFromServer())
+			event.setCancelled(true);
 	}
 
 }
